@@ -1,11 +1,10 @@
 Package: hyu
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R Functions I've Used
 Version: 0.1.0
 Author: Haichao Yu
 Maintainer: Haichao Yu <haichaoyu98@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Functions that I've written and used over the course of my studies and coursework at UCLA
 License: MIT
 Encoding: UTF-8
 LazyData: true
