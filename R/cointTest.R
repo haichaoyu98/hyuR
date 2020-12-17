@@ -1,9 +1,17 @@
 #' cointTest
 #'
+#' @description Function to quickly check for cointegration between two stock tickers, or any pair of assets so long
+#' as they are on the same timescale when returned from quantmod. Credit to Sam Borghese and his 2020 Econ 442A class for most of the body
+#'
 #' @param t1 String, ticker for stock 1
 #' @param t2 String, ticker for stock 2
+#' @param start String denoting starting date of the form 'YYYY-M-D'
+#' @param end String, denoting ending date
 #' @param T Optional numeric, identifies how many days backward to include in the rolling window
 #' @param prices Optional boolean for outputting the prices to a graph
+#'
+#' @examples
+#' cointTest('AMD', 'NVDA', '2010-1-1', '2020-1-1')
 #'
 #' @importFrom aTSA 'adf.test'
 #' @importFrom quantmod 'getSymbols'

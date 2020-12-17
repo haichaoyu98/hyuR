@@ -18,7 +18,7 @@ arimaRecur(data, order = c(1, 0, 1), mean = FALSE, steps, start)
 \item{start}{Numeric, where to start forecasting from in the data}
 }
 \description{
-arimaRecur
+Function that forecasts by recursively building an ARIMA model, reestimating the model with each new forecasted data point
 }
 \examples{
  arimaRecur(data, c(2,0,0), steps = 12, start = 100)

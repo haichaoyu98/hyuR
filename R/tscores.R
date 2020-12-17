@@ -1,6 +1,8 @@
 #' tscores
 #'
-#' @param model Fitted model
+#' @description Returns tscores for all coefficients of an Arima model object
+#'
+#' @param model Fitted model from an Arima() call
 #'
 #' @export
 

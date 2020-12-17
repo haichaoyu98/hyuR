@@ -7,8 +7,8 @@
 tscores(model)
 }
 \arguments{
-\item{model}{Fitted model}
+\item{model}{Fitted model from an Arima() call}
 }
 \description{
-tscores
+Returns tscores for all coefficients of an Arima model object
 }

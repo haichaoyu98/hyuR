@@ -11,10 +11,19 @@ cointTest(t1, t2, start, end, T = 100, prices = FALSE)
 
 \item{t2}{String, ticker for stock 2}
 
+\item{start}{String denoting starting date of the form 'YYYY-M-D'}
+
+\item{end}{String, denoting ending date}
+
 \item{T}{Optional numeric, identifies how many days backward to include in the rolling window}
 
 \item{prices}{Optional boolean for outputting the prices to a graph}
 }
 \description{
-cointTest
+Function to quickly check for cointegration between two stock tickers, or any pair of assets so long
+as they are on the same timescale when returned from quantmod. Credit to Sam Borghese and his 2020 Econ 442A class for most of the body
+}
+\examples{
+cointTest('AMD', 'NVDA', '2010-1-1', '2020-1-1')
+
 }

@@ -7,12 +7,15 @@
 mapeIter(forecasts, data, last = 1)
 }
 \arguments{
-\item{forecasts}{Vector or dataframe of forecasts}
+\item{forecasts}{Vector or dataframe of forecasts, rows should be iterations while columns should be steps forecasted at each iteration}
 
 \item{data}{Dataframe of data to compare forecasts to}
 
 \item{last}{Optional numeric, index of last point in data to build model, denotes where to start comparisons}
 }
 \description{
-mapeIter
+Returns the mean absolute percentage error for each iteration of a forecast, works with forecasts that are multiple steps ahead
+}
+\examples{
+
 }

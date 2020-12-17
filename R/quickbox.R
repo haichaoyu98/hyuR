@@ -1,5 +1,7 @@
 #' quickbox
 #'
+#' @description Outputs boxplots for all numeric variables in a dataset, good for preliminary descriptive analysi
+#'
 #' @param data Structured dataframe
 #'
 #' @importFrom magrittr '%>%'

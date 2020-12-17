@@ -10,5 +10,5 @@ quickbox(data)
 \item{data}{Structured dataframe}
 }
 \description{
-quickbox
+Outputs boxplots for all numeric variables in a dataset, good for preliminary descriptive analysi
 }

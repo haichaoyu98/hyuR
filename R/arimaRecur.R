@@ -1,5 +1,7 @@
 #' arimaRecur
 #'
+#' @description Function that forecasts by recursively building an ARIMA model, reestimating the model with each new forecasted data point
+#'
 #' @param data Data to build the model from
 #' @param order Optional 3-tuple specifiying order for the arima model
 #' @param mean Optional boolean indicating whether to include a mean for the arima model

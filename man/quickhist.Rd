@@ -13,5 +13,5 @@ quickhist(data)
 No return value, prints histograms for each variable in the dataframe
 }
 \description{
-quickhist
+Outputs histograms for all numeric variables in a dataset, good for preliminary descriptive analysis
 }
