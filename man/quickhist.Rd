@@ -4,12 +4,10 @@
 \alias{quickhist}
 \title{quickhist}
 \usage{
-quickhist(data, factor = NA)
+quickhist(data)
 }
 \arguments{
 \item{data}{Structured dataframe}
-
-\item{factor}{Optional argument, factor variable for grouped histograms}
 }
 \value{
 No return value, prints histograms for each variable in the dataframe

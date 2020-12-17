@@ -5,7 +5,7 @@
 #' @param T Optional numeric, identifies how many days backward to include in the rolling window
 #' @param prices Optional boolean for outputting the prices to a graph
 #'
-#'
+#' @importFrom aTSA 'adf.test'
 #' @importFrom quantmod 'getSymbols'
 #'
 #' @export

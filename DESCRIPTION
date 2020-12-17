@@ -15,5 +15,6 @@ Imports:
     forecast,
     MLmetrics,
     purrr,
-    magrittr
+    magrittr,
+    aTSA
 RoxygenNote: 7.1.1
