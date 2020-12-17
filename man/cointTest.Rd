@@ -4,7 +4,7 @@
 \alias{cointTest}
 \title{cointTest}
 \usage{
-cointTest(t1, t2, T = 100, prices = FALSE)
+cointTest(t1, t2, start, end, T = 100, prices = FALSE)
 }
 \arguments{
 \item{t1}{String, ticker for stock 1}

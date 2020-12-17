@@ -10,12 +10,11 @@
 #'
 #' @export
 
-cointTest <- function (t1, t2, T = 100,
-                                 prices = FALSE) {
-
+cointTest <- function (t1, t2, start, end,
+                       T = 100, prices = FALSE) {
   #Tickers for Stocks
-  t1data <- getSymbols(t1)
-  t2data <- getSymbols(t2)
+  t1data <- getSymbols(t1, from = start, to = end, env = NULL)
+  t2data <- getSymbols(t2, from = start, to = end, env = NULL)
   #Get adjusted prices
   t1colname <- paste0(t1, '.Adjusted')
   t2colname <- paste0(t2, '.Adjusted')
@@ -99,6 +98,5 @@ cointTest <- function (t1, t2, T = 100,
   legend("topleft",
          c("Spread","Mean","Mean +- x SD"),
          fill=c("black","red", "green"))
-
   return (rolling)
 }
