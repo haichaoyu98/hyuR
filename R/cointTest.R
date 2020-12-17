@@ -8,6 +8,7 @@
 #'
 #' @importFrom quantmod 'getSymbols'
 #'
+#' @export
 
 cointTest <- function (t1, t2, T = 100,
                                  prices = FALSE) {

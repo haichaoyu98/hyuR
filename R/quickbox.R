@@ -5,6 +5,7 @@
 #' @importFrom magrittr '%>%'
 #' @importFrom purrr 'keep'
 #'
+#' @export
 
 quickbox <- function (data) {
     data %>% keep(is.numeric) %>%

@@ -1,6 +1,8 @@
 #' tscores
 #'
 #' @param model Fitted model
+#'
+#' @export
 
 tscores <- function(model) {
   for (i in seq(1, length(model$coef))) {

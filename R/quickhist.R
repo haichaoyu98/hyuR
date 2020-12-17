@@ -6,6 +6,8 @@
 #' @param factor Optional argument, factor variable for grouped histograms
 #'
 #' @return No return value, prints histograms for each variable in the dataframe
+#'
+#' @export
 
 quickhist <- function(data, factor = NA) {
   if(factor) {

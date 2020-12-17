@@ -12,6 +12,7 @@
 #'
 #' @importFrom forecast 'Arima'
 #'
+#' @export
 
 arimaRecur <- function(data, order = c(1, 0, 1), mean = FALSE, steps, start) {
   results <- data

@@ -7,6 +7,8 @@
 #'
 #'
 #' @importFrom MLmetrics 'MAPE'
+#'
+#' @export
 
 mapeIter <- function(forecasts, data, last = 1) {
   mape <- forecasts[,1]
